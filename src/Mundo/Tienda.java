@@ -11,4 +11,15 @@ public class Tienda {
     contacto = pcontacto;
   }
 
+  public String getNombre() {
+    return this.nombre;
+  }
+
+  public String getDireccion() {
+    return this.direccion;
+  }
+
+  public String getContacto() {
+    return this.contacto;
+  }
 }
